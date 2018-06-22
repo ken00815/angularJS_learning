@@ -1,0 +1,13 @@
+1232312321
+<div class="optionBox">
+  <h1>Options</h1>
+  <h3>Center: </h3>
+    <ul>
+      <li><span>Lat:</span><input type="text" ng-model="markerLat"></li>
+      <li><span>Lng:</span><input type="text" ng-model="markerLng"></li>
+    </ul>
+  <h3>Zoom Level: </h3>
+    <select ng-model="options.currZoomLevel">
+      <option ng-repeat="l in options.zoomLevel">{{l}}</option>
+    </select>
+</div>
